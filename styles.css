@@ -1,0 +1,119 @@
+/* Container - Main wrapper */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Header section */
+.header {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+/* Image container in navbar */
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Hero section */
+.hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+/* Hero content area */
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Hero image container */
+.hero-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.hero-1 img,
+.hero-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Main content section */
+.content {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+/* Content grid container */
+.content-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content items */
+.content-1-1,
+.content-1-2,
+.content-1-3,
+.content-1-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;
+    min-width: 200px;
+}
+
+.content-1-1 img,
+.content-1-2 img,
+.content-1-3 img,
+.content-1-4 img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Quote section */
+.quote {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+/* Quote content container */
+.content-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+/* Footer section */
+.footer {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+}
+
