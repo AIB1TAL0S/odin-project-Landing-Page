@@ -1,27 +1,24 @@
 body {
-    background-image: url(assets/background1.gif);
-    background-repeat:no-repeat;
-    background-size:cover;
-    outline: solid red;
+    background: url(assets/background1.gif) no-repeat center/ cover,#000;          
+    background-attachment: fixed;
 }
 
+
 .nav-logo{
-    border: solid;
+    display: flex;
 }
 
 .navbar{
-    margin:auto;
-    padding: 20px 0px 20px 100px;
-    outline: solid red;
+    margin:10px;
     display: flex;
 }
 
-.links{
+.link{
     display: flex;
     margin-left:auto ;
-    outline: solid;
 }
 
 .links a{
     padding: 10px;
 }
+
