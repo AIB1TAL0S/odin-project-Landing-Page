@@ -1,6 +1,7 @@
 body {
     background: url(assets/background1.gif) no-repeat center/ cover,#000;          
     background-attachment: fixed;
+    font-family: "Jacquard 24", system-ui;
 }
 
 
@@ -13,12 +14,26 @@ body {
     display: flex;
 }
 
-.link{
+.nav{
     display: flex;
     margin-left:auto ;
 }
 
 .links a{
     padding: 10px;
+}
+
+.hero-content-container{
+    display: flex;
+    
+
+}
+
+.hero-content{
+
+}
+
+.hero-image{
+    border: solid;
 }
 
