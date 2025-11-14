@@ -35,6 +35,34 @@ ul{
 
 .hero-section{
     display: flex;
-    padding: 20px;
+    padding: 40px;
     align-items: center;
+    background-color: #1f2937;
+    color: white;
 }
+
+.hero-content{
+    border: solid;
+    margin: 90px;
+}
+
+
+
+.info-section{
+    text-align: center;
+}
+
+.info-section-image{
+    display: flex;
+    justify-content: center;
+}
+
+.info-card{
+    
+    gap: 10px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+
