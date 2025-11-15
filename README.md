@@ -1,2 +1,0 @@
-# odin project Landing Page
- 
